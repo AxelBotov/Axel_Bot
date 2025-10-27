@@ -5,6 +5,11 @@ import aiohttp
 from aiogram import Bot, Dispatcher, F
 from aiogram.types import Message, InlineKeyboardButton, InlineKeyboardMarkup, CallbackQuery
 from aiogram.filters import Command
+import os
+from dotenv import load_dotenv
+
+load_dotenv()
+BOT_TOKEN = os.getenv("7987484184:AAE6t7YiCDpb7dhyY4pugJdrh9KRCdq-IQk")
 
 # 🔑 Укажи токен своего бота
 BOT_TOKEN = "7987484184:AAE6t7YiCDpb7dhyY4pugJdrh9KRCdq-IQk"
@@ -158,3 +163,4 @@ async def main():
 
 if __name__ == "__main__":
     asyncio.run(main())
+
