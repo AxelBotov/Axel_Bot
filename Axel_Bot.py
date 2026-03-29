@@ -9,10 +9,10 @@ import os
 from dotenv import load_dotenv
 
 load_dotenv()
-BOT_TOKEN = os.getenv("7987484184:AAE6t7YiCDpb7dhyY4pugJdrh9KRCdq-IQk")
+BOT_TOKEN = os.getenv("Token")
 
 # 🔑 Укажи токен своего бота
-BOT_TOKEN = "7987484184:AAE6t7YiCDpb7dhyY4pugJdrh9KRCdq-IQk"
+BOT_TOKEN = "Token"
 
 # 📊 Список доступных криптовалют
 CRYPTO_LIST = ["BTCUSDT", "TONUSDT", "ETHUSDT", "SOLUSDT", "USDTUSDT"]
